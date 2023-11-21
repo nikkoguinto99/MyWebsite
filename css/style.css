@@ -287,7 +287,9 @@ section{
     background: var(--bg-color);
     opacity: .8;
 }
-/* About Me section*/
+
+/************************************************** About Me **************************************************/
+
 .about{
     display: flex;
     justify-content: center;
@@ -360,7 +362,7 @@ span{
     width: 15rem;
 }
 
-/* Education and Experience */
+/************************************************** Education & Experience **************************************************/
 
 .education{
     display: flex;
@@ -454,7 +456,7 @@ span{
     font-size: 1.6rem;
 }
 
-/* Skills */
+/************************************************** Skills **************************************************/
 
 .skills{
     min-height: auto;
@@ -544,7 +546,7 @@ span{
     background: var(--secondary-color);
 }
 
-/* Coding Percentage Bars*/
+/************************************************** Coding Percentages **************************************************/
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span{ /*HTML*/
     width: 60%;
@@ -562,7 +564,7 @@ span{
     width: 30%;
 }
 
-/* Professional Percentage Bars*/
+/************************************************** Professional Percentages **************************************************/
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span{ /*Web Design*/
     width: 80%;
@@ -669,7 +671,7 @@ span{
     margin-top: 10px;
 }
 
-/* Footer */
+/************************************************** Footer **************************************************/
 
 .footer{
     position: relative;
@@ -723,3 +725,6 @@ span{
     font-size: 2.4rem;
     color: var(--bg-color);
 }
+
+/************************************************** Works HTML **************************************************/
+
